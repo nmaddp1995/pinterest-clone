@@ -1,0 +1,33 @@
+<div id="div-header">
+  <% if(!user) {%>
+    <a href="/login">
+      <button class="btn btn-primary btn-header" id="btn-login" >
+        Sign in with twitter
+      </button>
+    </a>
+    <a href="/">
+      <button class="btn btn-default btn-header" id="btn-home" >
+        Home
+      </button>
+    </a>
+    <% } else { %>
+      <div id="log-out" style="float: right; margin : 15px 10px;">
+        <%= user.displayName %>, <a href ="/logout" >Sign out </a>
+          </div>
+        <a href="/add-pic">
+          <button class="btn btn-default btn-header" id="btn-add-pic" >
+            Add Picture
+          </button>
+        </a>
+        <a href="/my-pic">
+          <button class="btn btn-default btn-header" id="btn-my-pic" >
+            My Picture
+          </button>
+        </a>
+        <a href="/">
+          <button class="btn btn-default btn-header" id="btn-home" >
+            Home
+          </button>
+        </a>
+        <% }  %>
+          </div>

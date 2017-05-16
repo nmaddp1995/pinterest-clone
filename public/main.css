@@ -1,0 +1,85 @@
+.btn-header {
+  float:right;
+  margin : 10px 2px
+}
+
+
+#btn-login {
+    margin-right : 10px;
+}
+
+#div-header{
+  width:100%;
+  height : 80px;
+}
+
+#div-all-image {
+  width : 100%;
+}
+
+
+
+/*.div-img {*/
+/*  border-style : solid;*/
+/*  margin: 3px;*/
+/*  width: 20%;*/
+/*  padding : 5px;*/
+/*}*/
+
+
+
+.img-avatar {
+  margin : 7px;
+  width : 100%;
+  height: 70%;
+}
+.div-description {
+  text-align : center;
+  background-color : #DDDDDD;
+  margin-top : 5px;
+}
+.div-footer{
+  background-color : #DDDDDD;
+  margin-top : 5px;
+}
+
+.btn-like {
+  background-color : white;
+  margin : 5px;
+  
+}
+#btn-delete {
+  margin-top : 9px;
+}
+
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+/* fluid 5 columns */
+.grid-item { 
+  width: 33.333%; 
+  padding: 5px;
+}
+/* 2 columns */
+.grid-item--width2 { width: 40%; padding: 5px;}
+
+.pin-title {background-color: #fff;}
+
+.centerBlock {
+                display: table;
+                margin: 0 auto;
+            }
+/* 3 columns by default */
+.grid-sizer { width: 33.333%; }
+
+@media screen and (min-width: 768px) {
+  /* 5 columns for larger screens */
+  .grid-sizer { width: 20%; }
+  .grid-item { 
+  width: 20%; 
+  padding: 5px;
+}
+}
