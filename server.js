@@ -21,7 +21,7 @@ app.use(require('express-session')({ secret: 'keyboard cat', resave: true, saveU
 passport.use(new Strategy({
   consumerKey: "Ik0XJT3zd2E37qI6GXm1ZrMIE",
   consumerSecret: "WDK2oUs2GSgsmEBX7gwOlxOG9H3dPHQPDMp0aPxPpd2szBovx2",
-  callbackURL: 'https://pinterest-clone-nmaddp.herokuapp.com//login/twitter/return'
+  callbackURL: 'https://pinterest-clone-nmaddp.herokuapp.com/login/twitter/return'
 },
   function(token, tokenSecret, profile, cb) {
     return cb(null, profile);
